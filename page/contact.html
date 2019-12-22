@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style 3.css">
+    <link href="http://fr.allfont.net/allfont.css?fonts=caviar-dreams" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <header>
+        <nav id="myTopnav">
+            <ul>
+                <li><a href="Accueil.html">Accueil</a></li>
+                <li><a href="#">Qui nous sommes</a></li>
+
+                <li class="nav-item dropdown show">
+                    <a href="#" id="carte">Notre carte </a>
+                    <div id="mlist" style="width:100px;display:none">
+                        <a class="dropdown-item" href="Entrée.html"> Entrées</a>
+                        <a class="dropdown-item" href="Bases.html"> Nos Bases</a>
+                        <a class="dropdown-item" href="Sauce.html"> Les Sauces</a>
+                        <a class="dropdown-item" href="Grillade.html"> Les Griallades</a>
+                        <a class="dropdown-item" href="Dessert.html"> Desserts</a>
+                    </div>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <br/><br/>
+
+    <main style="clear:both;">
+        <!-- logo principal -->
+        <h1 class="titre">AFROODIZIAK</h1>
+
+
+
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+        <script>
+            $(document).ready(function() {
+
+                $("#carte").click(function() {
+                    if ($("#mlist").show());
+
+                    else
+                        $("#mlist").hide();
+                });
+            });
+        </script>
+    </main>
+
+    <center>
+
+        <h1>L'afrique n'a jamais été aussi proche de vous</h1>
+
+        <h2>Lundi,Mardi,Mercredi,Jeudi</h2>
+        <h3>De 11h30 à 23h30 </h3>
+
+        <h2>Vendredi,Samedi,</h2>
+        <h3>De 11h30 à 00h00</h3>
+        <h3> <span style='font-size:30px;'>&#9742;</span> 09 83 39 05 37</h3>
+        <h3> Retrouver nous au 42 boulevard magenta 75010 &#128205;. Geolocalisationci-dessous <span style='font-size:30px;'>&#x261F;</span> </h3>
+
+        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1_E7oji-HBn_pyUbszoWqjqZ_lAO_NFhu" width="80%" height="480"></iframe><br>
+
+        <h2>Lundi,Mardi,Mercredi,Jeudi</h2>
+        <h3>De 11h30 à 23h30 </h3>
+
+        <h2>Vendredi,Samedi,</h2>
+        <h3>De 11h30 à 00h00</h3>
+        <h3> <span style='font-size:30px;'>&#9742;</span> 01 42 62 57 51</h3>
+        <h3> Retrouver nous au 86 rue de belleville 75019 &#128205;. Geolocalisation ci-dessous <span style='font-size:30px;'>&#x261F;</span> </h3>
+
+        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1wbunqtECkCdB1B0bDuttVA5ecq5vs2LV" width="80%" height="480"></iframe>
+
+
+        <h1>Nous suivre &#128242;</h1>
+
+        <h2>
+            <a href="https://www.facebook.com/Afroodiziak-1790916514339967/?epa=SEARCH_BOX" class="fa fa-facebook"></a> Facebook</h2>
+        <h2>
+            <a href="#" class="fa fa-snapchat-ghost"></a> Snapchat</h2>
+        <h2>
+            <a href="https://www.instagram.com/afroodiziak_/?hl=fr" class="fa fa-instagram"></a> Instagram</h2>
+
+
+
+        <form method="post">
+            <label>Nom</label>
+            <input type="text" name="nom" required><br>
+            <label>Email</label>
+            <input type="email" name="email" required>
+            <br> <label>Message</label>
+            <textarea name="message" required></textarea>
+            <input type="submit">
+        </form>
+
+
+    </center>
+
+
+
+</body>
+
+
+
+</html>

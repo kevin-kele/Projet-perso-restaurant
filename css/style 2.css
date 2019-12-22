@@ -1,0 +1,264 @@
+body,
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    text-shadow: 4px 4px 4px #aaa;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #FFDCB2 !important;
+    margin: 1rem;
+}
+
+a {
+    font-family: caviar dreams;
+    font-size: 17px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: #FFDCB2;
+}
+
+.titre {
+    display: block;
+    /* margin-left: 20%; */
+    /* min-width: 4rem; */
+    margin-bottom: 10%;
+    /* min-height: 1rem; */
+    /* max-width: 56rem; */
+    /* max-height: 35rem; */
+    font-size: 5em;
+    text-align: center;
+}
+
+.titre-les-entrees {
+    margin: auto;
+    font-family: Chalkduster;
+    color: #8d302d;
+    font-size: 46px;
+}
+
+h1 {
+    font-family: Chalkduster;
+    color: #8d302d;
+    font-size: 60px;
+}
+
+h2 {
+    font-family: caviar dreams bold;
+    color: #8d302d;
+}
+
+.forecast {
+    margin: 0;
+    padding: .3rem;
+    background-color: #eee;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+h4 {
+    font-family: Chalkduster;
+    color: #cc6600;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-instagram {
+    background: #dd4b39;
+    color: white;
+}
+
+.contenue {
+    display: flex;
+    justify-content: space-between;
+}
+
+.partis_G {
+    margin-left: 10px;
+}
+
+.cont {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 930px) {
+    h1 {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: medium;
+    }
+    h2 {
+        font-size: 1.5em;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center
+    }
+    h4 {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-family: Chalkduster;
+        color: #cc6600;
+    }
+    p {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 30px;
+    }
+    div a {
+        text-align: center
+    }
+    .flotte {
+        display: none;
+    }
+    .navbar-brand {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 634px) {
+    h1 {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: medium;
+    }
+    h2 {
+        font-size: 1.5em;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        color: #8d302d;
+    }
+    h4 {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-family: Chalkduster;
+        color: #cc6600;
+    }
+    p {
+        font-size: 1.2em;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center
+    }
+    .titre {
+        max-height: 20rem;
+        margin-top: 10%;
+    }
+    .navbar-brand {
+        display: none !important;
+    }
+    .flotte {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 731px) {
+    .partis_G {
+        margin: auto;
+        text-align: center;
+    }
+    .navbar-brand {
+        display: none !important;
+    }
+    h1 {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: x-large !important;
+    }
+    .flotte {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .navbar-brand {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .navbar-brand {
+        display: none !important;
+    }
+    h4 {
+        font-size: 1.2em !important;
+    }
+    .flotte {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .titre {
+        font-size: -webkit-xxx-large;
+        text-align: center;
+    }
+    .navbar-brand {
+        display: none !important;
+    }
+    .titre {
+        font-size: 5em;
+        margin-left: -43px;
+    }
+    h4 {
+        font-size: 2.5rem !important;
+    }
+    .S {
+        font-size: 4rem !important;
+        /* margin-left: 19%; */
+        /* text-align: center; */
+    }
+    .K {
+        font-size: 2.5rem !important;
+        /* text-align: center; */
+        /* margin-left: 20%; */
+    }
+    .k {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+    .partis_G {
+        margin-left: 10px;
+    }
+    h4 {
+        font-size: 2.5rem !important;
+    }
+    .flotte {
+        margin-right: 10px !important;
+    }
+}

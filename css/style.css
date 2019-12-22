@@ -1,0 +1,413 @@
+body,
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    text-shadow: 4px 4px 4px #aaa;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #FFDCB2!important;
+}
+
+a {
+    font-family: caviar dreams;
+    font-size: 17px;
+    color: #020e19;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: #FFDCB2;
+}
+
+p.blocktext {
+    display: block;
+    float: left;
+    padding: 35px;
+    margin-right: auto;
+    width: 10em;
+    border: 1px solid;
+    margin-left: 1px;
+    height: auto;
+}
+
+h2 p.blocktext {
+    display: block;
+    float: left;
+    padding: 25px;
+    margin-right: auto;
+    width: 20em;
+    border: 1px solid;
+    margin: 20px;
+}
+
+div h {
+    margin: 30%;
+}
+
+h3 p.blocktext {
+    display: block;
+    float: left;
+    padding: 25px;
+    margin-right: auto;
+    width: 20em;
+    border: 1px solid;
+    margin: 50px;
+}
+
+@media screen and (max-width: 726px) {
+    .parallax {
+        /* The image used */
+        background-image: url('/img/affiche.jpg');
+        /* Full height */
+        height: 100%;
+        width: 200%;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .photo_anim {
+        margin: auto;
+        width: 200%;
+        height: auto;
+        font-size: 26px;
+    }
+}
+
+@media screen and (min-width: 726px) {
+    .parallax {
+        /* The image used */
+        background-image: url('/img/afiche.jpg');
+        /* Full height */
+        height: 80%;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .photo_anim {
+        margin: auto;
+        width: 100%;
+        height: auto;
+        font-size: 26px;
+        background-size: 70%;
+    }
+    .afroodiziak-titre-nosbases {
+        font-family: Chalkduster;
+        color: white;
+        font-size: 36px;
+        margin-top: 60px;
+    }
+}
+
+@media screen and (min-width: 421px) {
+    #contenu {
+        width: 743px;
+        display: inline-block
+    }
+}
+
+#k {
+    margin: auto;
+}
+
+#g {
+    margin: auto
+}
+
+.dropdown-item {
+    width: 100%;
+    padding: .25rem 1.5rem;
+}
+
+.navbar-nav .dropdown-menu {
+    float: none
+}
+
+.dropdown-menu.show {
+    display: block;
+}
+
+.dropdown-menu-right {
+    right: 0;
+    left: auto;
+}
+
+.afroodiziak-les-entres {
+    background-image: url('../img/rest.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    margin: auto;
+    padding: auto;
+    /* width: 196%; */
+}
+
+.afroodiziak-nos-bases {
+    background-image: url("../img/base.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    background-attachment: fixed;
+}
+
+.afroodiziak-titre-les-sauces {
+    background-image: url("../img/sauce.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    height: 350px;
+    background-attachment: fixed;
+}
+
+.afroodiziak-titre-les-grillades {
+    background-image: url("../img/Grillade.JPG");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    height: 350px;
+    background-attachment: fixed;
+}
+
+.afroodiziak-titre-les-desserts {
+    background-image: url("../img/beignet.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    margin: auto;
+    margin-bottom: 10%;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+.afroodiziak-titre-nosbases {
+    font-family: Chalkduster;
+    color: white;
+    font-size: 36px;
+    margin-top: 60px;
+}
+
+.afroodiziak-titre-lessauces {
+    font-family: Chalkduster;
+    color: white;
+    font-size: 36px;
+    margin-top: 60px;
+}
+
+.afroodiziak-nouveau {
+    font-family: Caviar Dreams, arial;
+    color: white;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.afroodiziak-en-savoir-plus {
+    color: white;
+    font-size: 16px;
+    border: white solid 2px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 123px;
+}
+
+.afroodiziak-titre-lesDessert {
+    font-family: Chalkduster;
+    color: white;
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+.afroodiziak-titre-lesGrillades {
+    font-family: Chalkduster;
+    color: white;
+    font-size: 36px;
+    margin-top: 60px;
+}
+
+.titre {
+    display: block;
+    margin: 10%;
+    min-width: 4rem;
+    min-height: 1rem;
+    /* max-width: 56rem; */
+    max-height: 35rem;
+    font-size: 100px;
+    font-family: Chalkduster;
+    color: #8d302d;
+}
+
+
+/* Redimensionnement de ma page en fonction de la taillle */
+
+@media screen and (min-width: 320px) and (max-width: 569px) {
+    .navbar-brand {
+        display: none !important;
+    }
+    .titre {
+        margin: auto;
+        font-size: x-large;
+    }
+    .afroodiziak-les-entres {
+        background-attachment: scroll;
+        background-position: center;
+        height: auto;
+    }
+    .afroodiziak-titre-les-grillades {
+        background-attachment: scroll;
+        background-position: center;
+        height: auto;
+    }
+    .afroodiziak-titre-les-sauces {
+        background-attachment: scroll;
+        background-position: center;
+        height: auto;
+    }
+    .afroodiziak-nos-bases {
+        background-attachment: scroll;
+        background-position: center;
+        height: auto;
+    }
+    .afroodiziak-titre-les-desert {
+        background-attachment: scroll;
+        background-position: center;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width: 645px) {
+    .navbar-brand {
+        display: none !important;
+    }
+    .titre {
+        margin: auto;
+        font-size: x-large;
+    }
+    .parallax {
+        /* The image used */
+        /* Full height */
+        height: 80%;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .afroodiziak-les-entres {
+        background-attachment: scroll;
+        background-position: center;
+        height: auto;
+    }
+    .afroodiziak-titre-les-grillades {
+        background-attachment: scroll;
+        background-position: center;
+        height: auto;
+    }
+    .afroodiziak-titre-les-sauces {
+        background-attachment: scroll;
+        background-position: center;
+        height: auto;
+    }
+    .afroodiziak-nos-bases {
+        background-attachment: scroll;
+        background-position: center;
+        height: auto;
+    }
+    .afroodiziak-titre-les-desert {
+        background-attachment: scroll;
+        background-position: center;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 370px) and (max-width: 813px) {
+    .navbar-brand {
+        display: none !important;
+    }
+    .parallax {
+        /* The image used */
+        /* Full height */
+        height: 80%;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .afroodiziak-titre-les-grillades {
+        background-attachment: scroll;
+        background-position: center;
+        height: auto;
+    }
+    .afroodiziak-titre-les-sauces {
+        background-attachment: scroll;
+        background-position: center;
+        height: auto;
+    }
+    .afroodiziak-nos-bases {
+        background-attachment: scroll;
+        background-position: center;
+        height: auto;
+    }
+    .afroodiziak-titre-les-desert {
+        background-attachment: scroll;
+        background-position: center;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .navbar-brand {
+        display: none !important;
+    }
+    .titre {
+        margin: auto;
+        font-size: x-large;
+    }
+    .parallax {
+        /* The image used */
+        /* Full height */
+        height: 80%;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .afroodiziak-les-entres {
+        background-attachment: scroll;
+        background-position: center;
+        height: auto;
+    }
+    .afroodiziak-titre-les-grillades {
+        background-attachment: scroll;
+        background-position: center;
+        height: auto;
+    }
+    .afroodiziak-titre-les-sauces {
+        background-attachment: scroll;
+        background-position: center;
+        height: auto;
+    }
+    .afroodiziak-nos-bases {
+        background-attachment: scroll;
+        background-position: center;
+        height: auto;
+    }
+    .afroodiziak-titre-les-desert {
+        background-attachment: scroll;
+        background-position: center;
+        height: auto;
+    }
+}
