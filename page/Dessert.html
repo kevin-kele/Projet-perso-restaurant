@@ -4,94 +4,83 @@
 <head>
     <meta charset="UTF-8">
     <title>Nos Bases</title>
-    <link rel="stylesheet" href="style 3.css">
+    <link rel="stylesheet" href="../css/style 3.css">
     <link href="http://fr.allfont.net/allfont.css?fonts=caviar-dreams" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <meta name="viewport" content="width=device-width">
-	    
 </head>
 
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="Accueil.html">Accueil</a></li>
-                <li><a href="#">Qui nous sommes</a></li>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="../Accueil.html">AFROODIZIAK</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                  <span class="navbar-toggler-icon"></span>
+                                </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../Accueil.html">Accueil<span class="sr-only">(current)</span></a>
+                    </li>
 
-                <li class="nav-item dropdown show">
-                    <a href="#" id="carte">Notre carte </a>
-                    <div id="mlist" style="width:100px;display:none">
-                        <a class="dropdown-item" href="Entrée.html"> Entrées</a>
-                        <a class="dropdown-item" href="Bases.html"> Nos Bases</a>
-                        <a class="dropdown-item" href="Sauce.html"> Les Sauces</a>
-                        <a class="dropdown-item" href="Grillade.html"> Les Griallades</a>
-                        <a class="dropdown-item" href="Dessert.html"> Desserts</a>
-                    </div>
-                </li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Qui sommes nous ?</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Notre cartes
+                                      </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="../page/Entrée.html"> Entrées</a>
+                            <a class="dropdown-item" href="../page/Bases.html"> Nos Bases</a>
+                            <a class="dropdown-item" href="../page/Sauce.html"> Les Sauces</a>
+                            <a class="dropdown-item" href="../page/Grillade.html"> Les Grillades</a>
+                            <a class="dropdown-item" href="../page/Dessert.html"> Desserts</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
 
     <br/><br/>
 
-    <main style="clear:both;">
-        <!-- logo principal -->
-        <img class="home_logo" src="afroodiziak.gif">
-	        
-	        
-	        
-	        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
-    <script>
-        $(document).ready(function() {
-
-            $("#carte").click(function() {
-                if ($("#mlist").is(":hidden"))
-                    $("#mlist").show();
-                else
-                    $("#mlist").hide();
-            });
-        });
-        
-    </script>
-    </main>
-	        
-<article class="Les-Entre">
-	
-	 
-		
-	<h1>Desserts</h1>
-        <h3>Dégué :</h3>
-        	<p>À l'unité : 3,00€</p></h2> <img height="350px" class="flotte" src="sauces.jpg">
-     <h3>Salade de fruit du jour :</h3>
-     		<p>À l'unité : 3,50€ </p>
-     <h3> Tiramisu mangue | Nutella | Speculos : </h3>
-     		<p> À l'unité : 3,00€</p>
-     	<h3>Fondant chocolat :</h3>
-	     	<p>À l'unité : 3,00€</p>
-	    <h3>Beignet coco | Fraise :</h3>
-	    	<p>À l'unité : 3,00€</p>
-	    	 		
-	    
-	   	
-	   	
-	   	<div class="icon">
-	<h1>Nous livrons </h1>
-    <div class="livron">
-        <a href="https://www.ubereats.com/fr-FR/paris/food-delivery/afroodiziak-belleville/ZviGZEKiSgW2PeGreD-Kkw/" target="_blank"><img class="afroodiziak-icon-add" src="panier.png"></a>
-        <p class="titre-livrons">cliquez sur l'image ci dessus</p>
-    </div>  
-	 
-</div>
-	   	
-	   	
-    </article><br>
+    <!-- logo principal -->
+    <h1 class="titre">AFROODIZIAK</h1>
 
 
 
-    
-    
-    
+    <div class="contenue">
+        <div class="partis_G">
+
+
+
+            <h1>Desserts</h1>
+            <h4>Dégué :</h4>
+            <p>À l'unité : 3,00€</p>
+            <h4>Salade de fruit du jour :</h4>
+            <p>À l'unité : 3,50€ </p>
+            <h4> Tiramisu mangue | Nutella | Speculos : </h4>
+            <p> À l'unité : 3,00€</p>
+            <h4>Fondant chocolat :</h4>
+            <p>À l'unité : 3,00€</p>
+            <h4>Beignet coco | Fraise :</h4>
+            <p>À l'unité : 3,00€</p>
+
+        </div>
+        <div id="partis_D"><img height="350px" class="flotte" src="../img/fondant.png"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
 </body>
 
 
